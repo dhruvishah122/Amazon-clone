@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border:border-box; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+
+  height: 50px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("https://th.bing.com/th/id/OIP.WbPie4u7yZ8Pht7AEY67HwHaEK?w=800&h=450&rs=1&pid=ImgDetMain");
+
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.border:hover {
+  border: 0.5px solid white;
+}
+
+.nav-icon {
+  display: flex;
+}
+
+.add-first {
+  color: #cccccc;
+  font-size: 0.85 rem;
+  margin-left: 9px;
+  ;
+}
+
+.add-last {
+  margin-top: 2px;
+  margin-left: 3px;
+  font-size: 1 rem;
+}
+
+.nav-add {
+  margin-left: 1px;
+  border: 1.5px solid black;
+}
+
+.nav-add:hover {
+  border: 0.5px solid white;
+}
+
+.nav-search {
+  display: flex;
+  height: 40px;
+  width: 620px;
+  border-radius: 4px;
+  justify-content: space-evenly;
+}
+
+.search-select {
+  width: 50px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.search {
+  color: black;
+  width: 45px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #f7ae50;
+}
+
+span {
+  font-size: 0.7rem;
+}
+
+.nav-second {
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.nav-signin:hover {
+  border: 1px white solid;
+}
+
+.nav-return {
+  margin-top: 1px;
+}
+
+.nav-return:hover {
+
+  border: 1px white solid;
+}
+
+.nav-cart i {
+  font-size: 30px;
+}
+.nav-cart{
+  font-weight:100;
+}
+.panel{
+  background-color:#222f3d;
+  height:50px;
+  color:white;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.panel-ops p{
+  display:inline;
+  margin-left:30px;
+}
+.panel-ops{
+
+  width:70%;
+  font-size:0.85rem;
+}
+.panel-deals{
+  margin-right:30px;
+}
+.hero-section{
+  height:300px;
+  background-image:url("https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img23/Fashion/Gw/Dec/one/Monthly/Bestfinds-Unrec-PC_3000._CB586257034_.jpg");
+  background-size: cover;
+  display: flex;
+position: relative;
+ align-items: flex-end;
+  justify-content:center ;
+}
+.hero-msg{
+  height:30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 15px;
+}
+.hero-msg a{
+  color:#007185;
+ text-decoration: none;
+}
+.shop-section{
+
+  background-color: #e2e6e7;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  margin-top: 5px;
+}
+.box{
+ margin-top: 15px;
+  margin-right:10px;
+  /* border:2px solid #d01616; */
+  height: 400px;
+  width:24%;
+  background-color: white;
+  padding: 10px 0px 15px;
+
+}
+ .box-img{
+   display:flex;
+
+   position: relative;
+  align-items: center;
+  height:300px;
+  background-size:cover;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-right: 2px;
+}
+
+.box-content{
+  background-color: #fbf9f9;
+  margin-top: 10px;
+   margin-left: 1rem;
+  margin-right: 1rem;
+}
+.box-content p{
+  background-color: #fbf9f9;
+   margin-top: 50px;
+  color:#007185;
+}
+.box-content h3{
+ margin-top: 5px;
+  background-color:#ffffff;
+} 
+.foot-panel1
+{
+  background-color:#37475a;
+  height:50px;
+  color:white;
+ display:flex;
+  align-items:center;
+  justify-content:center;
+  align-items:center;
+  margin-top:10px;
+}
+.foot-panel2{
+  height:500px;
+  display:flex;
+  background-color:#222f3d;
+  color:white;
+  justify-content:space-evenly;
+}
+ul p{
+  margin-top:20px;
+  font-weight:bold;
+}
+ul a{
+  margin-top:10px;
+  display:block;
+  font-size:0.75 rem;
+  color:#dddddd;
+}
+.foot-panel3{
+    background-color:black;
+  border:0.5px solid white;
+  display:flex;
+  height:70px;
+  justify-content:space-evenly;
+  align-items:center;
+  /* color:white; */
+}
+.logo{
+  height: 50px;
+  width: 100px;
+  background-image: url("https://th.bing.com/th/id/OIP.WbPie4u7yZ8Pht7AEY67HwHaEK?w=800&h=450&rs=1&pid=ImgDetMain");
+  
+background-color:#222f3d;
+  background-size: cover;
+}
